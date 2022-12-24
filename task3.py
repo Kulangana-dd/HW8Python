@@ -21,7 +21,7 @@ def division_by_zero(a, b):
     except OwnError as err:
         print(err)
     else:
-        print(f'Частное = {int(a) / int(b)}')
+        print(f'Частное = {a / b}')
 
 
 divider = int(input("Введите делимое: "))
